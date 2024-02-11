@@ -13,7 +13,7 @@ ttl=3600 # ttyl in seconds
 auth_header="Authorization: Bearer $api_token"
 content_type="Content-Type: application/json"
 
-# jsonn payload
+# json payload
 payload=$(cat <<EOF
 {
   "type": "$record_type",
